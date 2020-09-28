@@ -30,7 +30,7 @@
 //}
 
 int main(int argc, char** argv){
-	char input[10] = "Hello";
+	char *input[10] = "Hello";
 	printf("%s with length %d\n", input, strlen(input));
 	reverseStringNolength(input);
 
